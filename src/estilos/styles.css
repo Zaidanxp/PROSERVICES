@@ -1,0 +1,97 @@
+/**     CSS DEL CONTENIDO DE CONTACTO       **/
+.formularioDeContacto{
+    padding-top: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background-color: #ECE5E5;
+    box-shadow: 5px 5px 17px #c8c8c8,
+            -5px -5px 17px #ffffff;
+    border: 2px solid #bbacac;
+    border-radius: 10px;
+    transition: all .5s;
+    color: #D73B33;
+}
+input:focus {
+    background-color: #ECE5E5;
+    box-shadow: inset 5px 5px 17px #c8c8c8,
+            inset -5px -5px 17px #ffffff;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background-color: #ECE5E5;
+    box-shadow: 5px 5px 17px #c8c8c8,
+            -5px -5px 17px #ffffff;
+    border: 2px solid #bbacac;
+    border-radius: 10px;
+    transition: all .5s;
+    color: #D73B33;
+}
+textarea:focus {
+    background-color: #ECE5E5;
+    box-shadow: inset 5px 5px 17px #c8c8c8,
+            inset -5px -5px 17px #ffffff;
+}
+
+.botonFormulario{
+    border: 2px solid #3e62cf;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    background-color: #0C2D94;
+    color: white;
+    box-shadow: 5px 5px 17px #c8c8c8,
+            -5px -5px 17px #ffffff;
+}
+
+.botonFormulario:hover{
+    background-color: #4682e2;
+}
+
+/**     CSS DEL CONTENIDO DE DESCARGAS     **/
+.descargarEnEscritorio, .descargarEnMovil{
+    padding: 40px 15px 104px;
+    background-color: #0C2D94;
+}
+
+.imgDeDescargaDeLaAppParaTuPlataforma{
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.imgOrdenadorDescargas{
+    width: 200px;
+    height: 200px;
+}
+
+.descargarEnMovil{
+    background-color: white;
+}
+
+.imgPlataformaGooglePlay{
+    margin: -8px; 
+    height: 58px;
+}
+
+.imgPlataformaMicrosoft{
+    height: 40px; 
+    border-radius: 7px;
+}
+
+/**   COLORES   **/
+
+.rojo{
+    color: #D73B33;
+}
+
+.blanco{
+    color: white;
+}
