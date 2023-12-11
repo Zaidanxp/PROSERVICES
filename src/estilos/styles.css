@@ -39,9 +39,10 @@ footer{
 }
 
 .icono img{
-    width: 80%;
+    width: 50%;
     border-radius: 50%;
 }
+
 
 .redes{
     position: relative;
@@ -63,8 +64,11 @@ footer{
 }
 
 .icono{
+    text-align: center;
     z-index: 1;
 }
+
+
 
 /* Estilo para el menú */
 
