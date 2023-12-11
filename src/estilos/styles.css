@@ -1,3 +1,4 @@
+
 /**     CSS DEL CONTENIDO DE CONTACTO       **/
 .formularioDeContacto{
     padding-top: 20px;
@@ -94,4 +95,188 @@ textarea:focus {
 
 .blanco{
     color: white;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+
+* {
+    font-family: Roboto;
+}
+
+.azul {
+    background-color: #0c2d94;
+}
+
+/*Platino se refiere al color del footer*/
+.platino {
+    background-color: #E7E5DF;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
+.mapa {
+    text-align: center;
+}
+
+.mapa img {
+    border: 2px solid black;
+    width: 80%;
+}
+
+footer {
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+.infoContacto h1 {
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+}
+
+
+.icono img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.redes {
+    position: relative;
+    padding-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes::after {
+    content: '';
+    position: absolute;
+    top: 50;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #0C2D94;
+    z-index: 0;
+}
+
+.icono{
+    text-align: center;
+    z-index: 1;
+}
+
+
+.icono {
+    z-index: 1;
+}
+
+.textoHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloHeader {
+    color: white;
+    text-align: center;
+}
+
+/* Estilo para el menú */
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.redes ul li {
+    align-items: center;
+}
+
+.menu ul li {
+    display: block;
+    background-color: #e7e5df;
+    border: 1px solid black;
+    height: 50px;
+    padding: 0px;
+}
+
+.menu ul li a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+.menu ul li a:hover {
+    color: white;
+    background-color: #435280;
+}
+
+/*Contenido*/
+.presentacion {
+    margin: 30px;
+}
+
+.tituloNosotros {
+    background-color: #0C2D94;
+    color: white;
+}
+
+.Card {
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.imgCard {
+    display: block;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.parrafo {
+    text-align: justify;
+}
+
+.oscuro {
+    background-color: #0C2D94;
+    color: white;
+    border: 1px solid white;
+}
+
+.claro {
+    background-color: #ccd9ff;
+    color: black;
+    border: 1px solid white;
+}
+
+.Titulo {
+    color: #da4433;
+    text-align: start;
+    font-size: 1.5em;
+}
+
+.tituloPasos {
+    color: #da4433;
+}
+.cardpaso{
+    border-radius: 40px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 576px) {
+    .cardpaso {
+        width: 70%;
+        margin: auto;
+    }
 }
