@@ -38,6 +38,15 @@ footer {
     padding-bottom: 0.25em;
 }
 
+
+.icono img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+
+.redes{
+
 .icono img {
     width: 80%;
     border-radius: 50%;
@@ -61,6 +70,12 @@ footer {
     background-color: #0C2D94;
     z-index: 0;
 }
+
+.icono{
+    text-align: center;
+    z-index: 1;
+}
+
 
 .icono {
     z-index: 1;
